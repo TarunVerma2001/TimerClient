@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Hubballi&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Ubuntu:wght@300;400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Ubuntu';
+}
+
+.background{
+  background-image: url(/img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
